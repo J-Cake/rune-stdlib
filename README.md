@@ -1,0 +1,89 @@
+# Rune Standard Library
+
+A Standard Library for the [Rune](https://rune-rs.github.io/) language.
+
+## Progress
+
+The library providers wrappers to Rust's standard library. So far the following modules have been implemented
+
+- [ ] `std::io`
+  - [ ] `std::io::BufReader`
+  - [ ] `std::io::BufWriter`
+  - [ ] `std::io::BufRead`
+  - [ ] `std::io::Write`
+  - [ ] `std::io::Read`
+  - [ ] `std::io::Seek`
+  - [ ] `std::io::SeekFrom`
+  - [ ] `std::io::Error`
+  - [ ] `std::io::ErrorKind`
+  - [ ] `std::io::Result`
+- [ ] `std::fs`
+  - [ ] `std::fs::File`
+  - [ ] `std::fs::OpenOptions`
+  - [ ] `std::fs::Metadata`
+  - [ ] `std::fs::DirEntry`
+  - [ ] `std::fs::DirBuilder`
+  - [ ] `std::fs::FileBuilder`
+  - [ ] `std::fs::Permissions`
+  - [ ] `std::fs::read_dir`
+  - [ ] `std::fs::read_to_string`
+  - [ ] `std::fs::read`
+- [ ] `std::path`;
+  - [ ] `std::path::Path`
+  - [ ] `std::path::PathBuf`
+  - [ ] `std::path::Component`
+  - [ ] `std::path::Components`
+  - [ ] `std::path::Prefix`
+  - [ ] `std::path::Prefix::is_absolute`
+  - [ ] `std::path::Prefix::is_relative`
+  - [ ] `std::path::Prefix::is_drive_root`
+  - [ ] `std::path::Prefix::is_UNC`
+  - [ ] `std::path::Prefix::is_empty`
+  - [ ] `std::path::Prefix::to_str``
+- [ ] `std::process`;
+  - [ ] `std::process::Command`
+  - [ ] `std::process::Output`
+  - [ ] `std::process::Stdio`
+  - [ ] `std::process::ExitStatus`
+  - [ ] `std::process::Child`
+  - [ ] `std::process::ChildStdin`
+  - [ ] `std::process::ChildStdout`
+  - [ ] `std::process::ChildStderr`
+  - [ ] `std::process::ExitStatusExt`
+  - [ ] `std::process::id`
+- [ ] `std::env`.
+  - [ ] `std::env::args`
+  - [ ] `std::env::args_os`
+  - [ ] `std::env::current_dir`
+  - [ ] `std::env::current_exe`
+  - [ ] `std::env::home_dir`
+  - [ ] `std::env::temp_dir`
+  - [ ] `std::env::var`
+  - [ ] `std::env::var_os`
+  - [ ] `std::env::vars`
+  - [ ] `std::env::vars_os`
+  - [ ] `std::env::split_paths`
+- [ ] `std::net`.
+  - [ ] `std::net::IpAddr`
+  - [ ] `std::net::Ipv4Addr`
+  - [ ] `std::net::Ipv6Addr`
+  - [ ] `std::net::SocketAddr`
+  - [ ] `std::net::SocketAddrV4`
+  - [ ] `std::net::SocketAddrV6`
+  - [ ] `std::net::TcpListener`
+  - [ ] `std::net::TcpStream`
+  - [ ] `std::net::UdpSocket`
+  - [ ] `std::net::Shutdown`
+- [ ] `std::sync`.
+  - [ ] `std::sync::Arc`
+  - [ ] `std::sync::Mutex`
+  - [ ] `std::sync::RwLock`
+  - [ ] `std::sync::Condvar`
+  - [ ] `std::sync::Barrier`
+  - [ ] `std::sync::Once`
+  - [ ] `std::sync::OnceState`
+  - [ ] `std::sync::PoisonError`
+  - [ ] `std::sync::TryLockError`
+  - [ ] `std::sync::TryLockResult`
+- [ ] `std::random`
+  - [ ] `std::random::random`.

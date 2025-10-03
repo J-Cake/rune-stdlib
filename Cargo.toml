@@ -3,4 +3,8 @@ name = "rune-std"
 version = "0.1.0"
 edition = "2024"
 
+[lib]
+name = "rune_std"
+
 [dependencies]
+rune = "0.14.1"
